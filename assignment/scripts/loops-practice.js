@@ -14,7 +14,7 @@ for (let i=0; i<4; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
 
-for(let i=0; i<5; i++) {
+for(let i=0; i<=5; i++) {
   console.log(i);
 }
 
@@ -58,8 +58,8 @@ console.log('Some stars using while:');
 let x=0;
 
 while( x<=stars.length){
-  console.log(stars);
-  stars++;
+  console.log(stars[x]);
+  x++;
 }
 
 
